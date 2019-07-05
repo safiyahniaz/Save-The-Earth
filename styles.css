@@ -1,0 +1,90 @@
+#FirstSection {
+    min-height: 100vh;
+    background-color: black;
+    padding-top: 2em;
+    margin: 0;
+    padding-bottom: 2em;
+    text-align: center;
+}    
+
+#jumbo {
+    min-height: 100%; 
+    min-height: 20vh;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #button {
+  background-color: rgb(196, 129, 28);
+  border-color: rgb(65, 63, 63);
+  padding: 13px 30px;
+  font-size: 20px;
+  }
+
+#imgnasa1 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10em;
+  }
+
+#SecondSection {
+    min-height: 100vh;
+    background-color: rgb(137, 172, 206);
+    padding-top: 5em;
+    margin:0;
+    padding-bottom: 0.1em;
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#ClickHere {
+font-size: 19px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.display-4 {
+    font-size: 3.6em;
+}
+
+#Cards {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 2em;
+}
+
+h2 {
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+    display: block;
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    padding-top: 0.52em;
+    padding-bottom: 0em;
+}
+
+
+#What {
+    font-size: 1.3em;
+}
+
+ol {
+    list-style-position: inside;
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
