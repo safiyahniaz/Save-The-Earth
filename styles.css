@@ -60,22 +60,48 @@ font-size: 19px;
     padding-bottom: 2em;
 }
 
-h2 {
+#h2 {
     margin-block-start: 0em;
     margin-block-end: 0.2em;
     margin-inline-start: 1px;
     margin-inline-end: 1px;
     display: block;
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: bold;
     font-family: 'Special Elite', cursive;
     padding-top: 0.52em;
     padding-bottom: 0em;
 }
 
+#h1 {
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+}
+
+#h11 {
+font-size: 2.25em;
+text-transform: uppercase;
+font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#h3 {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+    padding-bottom: 0em;
+}
+
+#contain {
+    align-items: right;
+}
 
 #What {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    font-family: 'Rancho', cursive;
+    padding-bottom: 0.3em;
+    padding-top: 0%;
 }
 
 ol {
@@ -87,4 +113,13 @@ ol {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+#ThirdSection {
+    min-height: 100vh;
+    background-color: rgb(137, 172, 206);
+    padding-top: 5em;
+    margin:0;
+    padding-bottom: 0.1em;
+    padding: 20px;
 }

@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="styles.css">
 
     <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
     <title> June Holiday Project</title>
   </head>
@@ -26,18 +33,39 @@
           </div>
           <img src="nasaearth.gif" height="300" width="300" id="imgnasa1">
         </div>
-
+            
         <div id="SecondSection">
-            <h2 id="h2" style="color: rgb(98, 50, 112)"> What is happening to earth? </h2>
+          <h2 id="h2" style="color: rgb(98, 50, 112)"> What is happening to earth? </h2> 
+
+          <div id="contain">
+            <div class="toast" data-autohide="false" style="position: absolute; top: 60em; right: 4em;">
+              <div class="toast-header">
+                <strong class="mr-auto text-primary" id="h11" > did you know that</strong>
+                <small class="text-muted" id="What"><span style='font-size:70px;'>&#128561;</span>
+                  </small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+              </div>
+              <div class="toast-body">
+                Greenhouse gases can stay in the atmosphere for an amount of years ranging from decades to hundreds and thousands of years. That is the major reason to explain for ozone layer hole. Ozone depletion is the main cause which leads to climate change or also called global warming. 
+              </div>
+            </div>
+          </div>
+          
+          <script>
+          $(document).ready(function(){
+            $('.toast').toast('show');
+          });
+          </script>
+
             <p id="What">
             Earth is going through an environmental crisis.
             </p>
 
-            <h3>
+            <h3 id="h3">
                 The causes of the environmental crisis
             </h3>
 
-            <ol> 
+            <ol id="What"> 
               <li href="..."> Technological developments</li>
               <li href="..."> Rapidly increasing human population</li>
               <li href="..."> Dramatic increases in resource and energy consumption </li>
@@ -46,19 +74,21 @@
               <li href="..."> Short-term patterns of decision-making</li>
             </ol>
             
-            <h3>
+            <h3 id="h3">
                 The Consequences of Inaction 
             </h3>
 
-            <ol>
+            <ol id="What">
               <li>Pressures on the planet’s ecosystem are now so great that future generations could face falling living standards </li>
-              <li> The population is expected to increase from roughly 7 billion people today to more than 9 billion in 2050. The global economy is expected to recover from the financial crisis and ultimately quadruple in size. However, the financial cost of failing to address climate change could result in an up to 14% loss in per capita consumption worldwide by 2050, according to some estimates.</li>
               <li>Air pollution alone will be a major killer, overtaking both poor sanitation and a lack of clean drinking water as a global health threat. </li>              
               <li> Due to dependence on fossil fuels, carbon dioxide emissions from energy use will grow by 70%, the OECD found. This will help drive up the global average temperature by 3° to 6 ° Celsius by 2100. Not only does this far exceed the internationally agreed-upon global warming limit of two degrees, but three degrees may be the “tipping point” where climate change could run out of control, scientists say. </li>
               <li> Because the population will grow so dramatically, there will be a 55% increase in demand for water, and 40% of the world’s population will be living under severe water stress. </li>
               <li> Groundwater depletion will be the biggest threat to agriculture and to urban water supplies, while pollution from sewage and waste water—including chemicals used in cleaning—will put further strain on global water supplies.</li>
-              <li> Biodiversity will decline by 10% on land, with the worst impacts felt in Asia, Europe and southern Africa.</li>
             </ol>
+        </div>
 
+            <div id="ThirdSection">
+
+            </div>
     </body>
 </html>
