@@ -102,6 +102,7 @@ font-family: 'Saira Extra Condensed', sans-serif;
     font-family: 'Rancho', cursive;
     padding-bottom: 0.3em;
     padding-top: 0%;
+    font-weight: 100;
 }
 
 ol {
@@ -121,5 +122,40 @@ ol {
     padding-top: 5em;
     margin:0;
     padding-bottom: 0.1em;
-    padding: 20px;
+    padding: 20px; 
+    min-height: 100vh;
 }
+
+#solutions {
+    font-family: 'Barriecito', cursive;
+    padding-left: 0.4em;
+    padding-top: 0.05em;
+    padding-bottom: 0.4em;
+    font-size: 3.3em;
+    text-align: center; 
+}
+
+#What2 {
+font-size: 1.2em;
+font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+#dog {
+    font-family: 'Concert One', cursive;
+    font-size: 1.3em;
+}
+
+#p {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
+    padding-top: 1em;
+    text-align: center;
+    margin: 1.5em;
+}
+
+#conclude {
+    font-family: 'Khand', sans-serif;
+    text-align: center; 
+    font-size: 2em;
+    font-weight: bolder;
+} 
