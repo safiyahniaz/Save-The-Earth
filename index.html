@@ -8,7 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-
     <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
@@ -29,8 +28,26 @@
         <div id="FirstSection">
           <div class="jumbotron container" style="background-color:#b45b5b" id="jumbo">
               <h1 class="display-4" style="color:#faf2f2">Hello World!</h1>
-                <p class="lead" style="color:#faf2f2">This is my first individual website without the help of my mentors, and I would love to raise awareness for our dying planet
-                    <span style='font-size:40px;'>&#128532;</span>
+                <p class="lead" style="color:#faf2f2">This is my first individual website without the help of my mentors, and I would love to raise awareness for our dying planet <span style='font-size:40px;'>&#128532;</span>
+                  <blockquote class="blockquote">
+                    <p id="saying" class="mb-0">Stopping pollution is the best solution.</p>
+                    <footer id="author" class="blockquote-footer" style="color:rgb(224, 142, 245)">The French Quotes<cite title="Source Title"></cite></footer>
+                  </blockquote>
+                  
+                  <div class="container">
+                    <button type="button"  class="btn btn-info btn-lg " style="color:rgb(41, 38, 38)" onclick="getRandomQuote()">Get Random Quote</button>
+                  </div>
+              
+                  <!-- Optional JavaScript -->
+                  <!-- 0 to random quotes.length ???? -->
+                  <!-- get random number, get random author, set author to quote (?)
+                
+              
+                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                    <script src="main.js"></script>
                   </p>
                   <hr class="my-4">
                   <p style="color:#faf2f2" id="ClickHere" >Click the button to learn more!</p>
@@ -40,94 +57,74 @@
         </div>
             
         <div id="SecondSection">
-          <h2 id="h2" style="color: rgb(98, 50, 112)"> What is happening to earth? </h2> 
 
-          <div id="contain">
-            <div class="toast" data-autohide="false" style="position: absolute; top: 60em; right: 4em;">
-              <div class="toast-header">
-                <strong class="mr-auto text-primary" id="h11" > did you know that</strong>
-                <small class="text-muted" id="What"><span style='font-size:70px;'>&#128561;</span>
-                  </small>
-                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+            <div class="card text-white bg-dark mb-3" style="width: 25rem;">
+                <img src="trasheart.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">  The causes of the environmental crisis</h5>
+                  <p class="card-text"></p>
+                  <a href="https://safiyahniaz.github.io/ydo/" class="btn btn-primary">Click Here!</a>
+                </div>
               </div>
-              <div class="toast-body">
-                Greenhouse gases can stay in the atmosphere for an amount of years ranging from decades to hundreds and thousands of years. That is the major reason to explain for ozone layer hole. Ozone depletion is the main cause which leads to climate change or also called global warming. 
+
+              <div id="contain">
+                  <div class="toast" data-autohide="false" style="position: absolute; top: 65em; right: 2em;">
+                    <div class="toast-header">
+                      <strong class="mr-auto text-primary" id="h11" > did you know that</strong>
+                      <small class="text-muted" id="What"><span style='font-size:70px;'>&#128561;</span>
+                        </small>
+                      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                    </div>
+                    <div class="toast-body">
+                      Greenhouse gases can stay in the atmosphere for an amount of years ranging from decades to hundreds and thousands of years. That is the major reason to explain for ozone layer hole. Ozone depletion is the main cause which leads to climate change or also called global warming. 
+                    </div>
+                  </div>
+      
+                  <script>
+                      $(document).ready(function(){
+                        $('.toast').toast('show');
+                      });
+                      </script>
+
+            <div class="card text-white bg-dark mb-3" style="width: 22rem;">
+                <img src="sadearth.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> What is happening to earth? </h5>
+                  <p class="card-text"></p>
+                  <a href="https://safiyahniaz.github.io/ydo/" class="btn btn-primary">Click Here!</a>
+                </div>
               </div>
-            </div>
-
-            <script>
-                $(document).ready(function(){
-                  $('.toast').toast('show');
-                });
-                </script>
-
-          </div>
-
-            <p id="What">
-            Earth is going through an environmental crisis.
-            </p>
-
-            <h3 id="h3" style="color: rgb(99, 10, 10)">
-                The causes of the environmental crisis
-            </h3>
-
-            <ol id="What"> 
-              <li href="..."> Technological developments</li>
-              <li href="..."> Rapidly increasing human population</li>
-              <li href="..."> Dramatic increases in resource and energy consumption </li>
-              <li href="..."> The emergence and development of the capitalist world economy</li>
-              <li href="..."> Utilitarian attitudes towards the environment</li>
-              <li href="..."> Short-term patterns of decision-making</li>
-            </ol>
-            
-            <h3 id="h3" style="color: rgb(99, 10, 10)">
-                The Consequences of Inaction 
-            </h3>
-
-            <ol id="What">
-              <li>Pressures on the planet’s ecosystem are now so great that future generations could face falling living standards. </li>
-              <li>Air pollution alone will be a major killer, overtaking both poor sanitation and a lack of clean drinking water as a global health threat. </li>              
-              <li> Due to dependence on fossil fuels, carbon dioxide emissions from energy use will grow by 70%, the OECD found. This will help drive up the global average temperature by 3° to 6 ° Celsius by 2100. Not only does this far exceed the internationally agreed-upon global warming limit of two degrees, but three degrees may be the “tipping point” where climate change could run out of control, scientists say. </li>
-              <li> Because the population will grow so dramatically, there will be a 55% increase in demand for water, and 40% of the world’s population will be living under severe water stress. </li>
-              <li> Groundwater depletion will be the biggest threat to agriculture and to urban water supplies, while pollution from sewage and waste water—including chemicals used in cleaning—will put further strain on global water supplies.</li>
-            </ol>
-          </div>
         </div>
 
+       
         <div id="ThirdSection">
 
-          <h3 id="solutions" style="color: rgb(2, 107, 55)">
-            Solutions to global environmental crisis 
-          </h3>
- 
-          
-          <ol>
-          <li id="dog"> Environmentally-friendly forms of transport. 
-              <p id="What2">If more people are using public transport, this would reduce the amount of pollution.</p> 
-            </li>
-            <li id="dog">  Recycling waste.
-              <p id="What2">Although we try to reduce the amount of wastes, it’s undeniable that there are still large numbers of wastes dumped into landfills and contaminating the environment everyday. Hence, recycling waste appears to be the best solution for remained wastes. </p> 
-            </li>
-            <li id="dog"> Education.
-              <p id="What2">  People should be aware of environmental alarm and take more responsibilities for environment crisis.</p>
-            </li>
-            <li id="dog">Replace disposable items with reusable ones.
-              <p id="What2"> Some changes you can make are carrying your own reusable cup or water bottle, using reusable food containers instead of sandwich bags and plastic wrap, and bringing your own bags to the grocery store.</p>
-            </li>
-            <li id="dog"> Reducing paper wastage.
-              <p id="What2"> Print as little as possible; and if you must, print on both sides.</p>
-            </li>
-            <li id="dog"> Conserve water & electricity
-              <p id="What2"> Turn the sink water off when brushing your teeth, switch off anything that uses electricity when not in use (lights, televisions, computers, printers, etc.), unplug devices when possible; even when an appliance is turned off, it may still use power.</p>
-            </li>
-          </ol>
-          
-          <p id="p" style="color: rgb(133, 62, 11)"> 
-              In conclusion, our Earth is fading away. Our environment is destroying. Undoubtedly, we are facing with serious consequences of environmental crisis caused by ourselves. The world is harmed by the uniformed and irresponsible acts of the community. For years, there were the majority of solutions and policies in order to address environmental issue. Yet the key solution is human. People have to be conscious of what they have done and make positive acts to the environment. Our lives are in our hands. Therefore, we must all take responsibilities for the alarming impact on the environment we live in. </p>
+            <div class="card text-white bg-dark mb-3" style="width: 23rem;">
+                <img src="solution.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">   Solutions to global environmental crisis </h5>
+                  <p class="card-text"></p>
+                  <a href="https://safiyahniaz.github.io/ydo/" class="btn btn-primary">Click Here!</a>
+                </div>
+            </div>
 
-          <p id="conclude">It’s never too late to change. Nothing will work unless we do. Let’s save our Earth! 
-          </p>
-        </div>
+            <div class="card text-white bg-dark mb-3" style="width: 23rem;" id="cardaz">
+                <img src="fireearth.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">  The Consequences of Inaction </h5>
+                  <p class="card-text"></p>
+                  <a href="https://safiyahniaz.github.io/ydo/" class="btn btn-primary">Click Here!</a>
+                </div>
+              </div>
+
+                <div>
+            <p id="p" style="color: rgb(133, 62, 11)"> 
+                In conclusion, our Earth is fading away. Our environment is destroying. Undoubtedly, we are facing with serious consequences of environmental crisis caused by ourselves. The world is harmed by the uniformed and irresponsible acts of the community. For years, there were the majority of solutions and policies in order to address environmental issue. Yet the key solution is human. People have to be conscious of what they have done and make positive acts to the environment. Our lives are in our hands. Therefore, we must all take responsibilities for the alarming impact on the environment we live in. </p>
+  
+            <p id="conclude">It’s never too late to change. Nothing will work unless we do. Let’s save our Earth! 
+            </p>
+          </div>
+          </div>
 
     </body>
 </html>
